@@ -1,0 +1,39 @@
+@font-face {
+    font-family: DigitalNum;
+    src: url(./digital-7.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: DigitalNum;
+    font-weight: 500;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.main{
+    width: 50vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border: 0.5rem solid red;
+    border-radius: 2rem;
+    color: red;
+}
+
+.time{
+    padding: 0.6rem;
+    text-shadow: 0.5rem 0.5rem  1rem rgba(250, 0, 0, 0.6);
+    transition: all 0.5s ease-in;
+}
